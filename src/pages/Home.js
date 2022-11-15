@@ -1,5 +1,14 @@
+import {Row, Col} from "antd";
+
 export default function Home(){
     return(
-        <h1>Home Page</h1>
+<>
+        <Row>
+            <Col xl={24}><h1>Home Page</h1></Col>
+        </Row>
+
+        
+        </>
+        
     )
 }
