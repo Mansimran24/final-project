@@ -1,19 +1,23 @@
-import{Route, Routes} from "react-router-dom";
-import Login from "./pages/Login";
-import Home from "./pages/Home";
-
-
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
-    <div>
-<h1> We can check both pages when we will write login or home after localhost </h1>
-
-
-      <Routes>
-        <Route path= "/login" element={<Login/>}/>
-<Route path= "/home" element={<Home />}/>
-</Routes>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
